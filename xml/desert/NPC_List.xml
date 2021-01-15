@@ -1,0 +1,942 @@
+<NPCS>
+    <!--These are the locations in England-->
+	<LOCATION ID="EN_icecream">
+		<!--<NPC>
+		    <ID>NPC0407</ID>
+			<NAME>Uncle Sam</NAME>
+			<XPOS>375</XPOS>
+			<YPOS>220</YPOS>
+			<DIRECTION>1</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>1.0</SCALE>
+			<COLOR>14</COLOR>
+			<CLOTHING>C017,C432a,C301g,C125,C201a</CLOTHING>
+			<TITLE>Uncle Sam</TITLE>
+			<GREETING>Greetings, I'm Uncle Sam. Happy 4th of July!</GREETING>
+			<BUYTEXT>Happy 4th of July! I'm here for one last 4th of July celebration, so don't forget to buy these items.</BUYTEXT>
+			<BUYITEMS>BG070,BG071,BG072,C432a,C432b,C432c,C432d,C432e,C432f,F027lw,F023bd,F026ha,F025a,F022bd,F927lk,C085a,C085b,C086a,C086b,C757g,C757c,C757b</BUYITEMS>
+			<BUYBACKGROUND>7</BUYBACKGROUND>
+			<ACTIONS>NPC_BUY_GENERIC</ACTIONS>	
+		</NPC>-->
+        <NPC>
+            <ID>NPC001</ID>
+            <NAME>McWiggles</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>840</XPOS>
+            <YPOS>380</YPOS>
+			<!-- 840 380 -->
+            <DIRECTION>2</DIRECTION>
+            <FACELEFT>true</FACELEFT>
+            <SCALE>1.3</SCALE>   
+            <COLOR>7</COLOR>
+            <!--<CLOTHING>C301e,C489i</CLOTHING>-->
+			<!--<CLOTHING>C019,C107,461a,C301j</CLOTHING>-->
+			<CLOTHING>C301e,C489i</CLOTHING>
+            <TITLE>William McWiggles</TITLE>
+            <GREETING>Greetings, I'm William McWiggles. Welcome to my shop. I've got the best ice cream this side of Muskrat River!</GREETING>
+			<GAME>MG003</GAME>
+            <GAMETEXT>Have you ever been sky diving before? I must say I find it rather scary. But, I'm sure you'll be ok. Have fun!</GAMETEXT>
+            <BUYTEXT>Would you like some ice cream? I hope I have what you like.</BUYTEXT>
+			<BUYITEMS></BUYITEMS>
+            <ACTIONS>NPC_BUY_ICECREAM</ACTIONS>
+        </NPC>
+    </LOCATION>
+    <LOCATION ID="EN_stonehenge">
+        <NPC>
+            <ID>NPC002</ID>
+            <NAME>Lisa</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>250</XPOS>
+            <YPOS>390</YPOS>
+			<!-- 250 390 --->
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.7</SCALE>
+            <COLOR>3</COLOR>
+			<!--<CLOTHING>C409h,C307a,C204f</CLOTHING>-->
+            <CLOTHING>C604d</CLOTHING>
+			<!--<CLOTHING>C604d</CLOTHING>-->
+            <TITLE>Lisa McWiggles</TITLE>
+            <GREETING>Help! I've wandered off and seem to have gotten lost. Can you help me find my way back to town?</GREETING>
+            <BUYTEXT>Would you like some ice cream? I hope I have what you like. My flavors change regularly so check back often.</BUYTEXT>
+            <SELLTEXT>Do you have any extra cans or bottles? I can recycle them for you.</SELLTEXT>
+            <SELLTYPE>CATEGORY_TRASH</SELLTYPE>
+            <ACTIONS>NPC_SELL</ACTIONS>
+        </NPC>
+	    <!--<NPC>
+			<ID>NPC023</ID>
+			<NAME>Easter Bunny</NAME>
+			<MODEL>AVATAR_MODEL_BUNNY</MODEL>		
+			<XPOS>728</XPOS>
+			<YPOS>253</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>true</FACELEFT>
+			<SCALE>1.8</SCALE>   
+			<COLOR>3</COLOR>
+			<CLOTHING></CLOTHING>
+			<TITLE>Easter Bunny</TITLE>
+			<GREETING>Howdy</GREETING>
+			<ACTIONS></ACTIONS>
+		</NPC>-->
+    </LOCATION>
+    <LOCATION ID="EN_village">
+        <NPC>
+            <ID>NPC003</ID>
+            <NAME>Paige</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+			<!-- 558 260 -->
+            <XPOS>558</XPOS>
+            <YPOS>260</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.85</SCALE>   
+            <COLOR>7</COLOR>
+			<!--Warm weather clothes for paige: C438d,C301a,C104b,C203h-->
+			<!--Cold weather clothes for paige: C020a,C906a,C463c,C602g,C202h-->
+			<!--spring weather clothes for paige: C037f,C115e,C439i,C301m,C203d,C902f-->
+			<!--winter weather clothes for paige: C023h,C518a,C304a,C204g-->
+            <!--<CLOTHING>C105f,C603c,C438d,C023f,C213f</CLOTHING>-->
+			<!--<CLOTHING>C090a,C742,C124e,C611a</CLOTHING>-->
+			<!--NORMAL <CLOTHING>C037f,C115e,C439i,C301m,C203d,C902f</CLOTHING>-->
+			<CLOTHING>C037f,C115e,C439i,C301m,C203d,C902f</CLOTHING>
+            <TITLE>Paige's Shop</TITLE>
+            <GREETING>Hello my dear.</GREETING>
+            <GAME>MG003</GAME>
+            <GAMETEXT>Would you like to play Dragon's Revenge?</GAMETEXT>
+            <BUYTEXT>I got these potions from Trixie. I haven't tried them yet so don't blame me if they turn you into a toad.</BUYTEXT>
+            <BUYITEMS>GI703,GI704,GI705,GI706,GI709,GI701,GI707,GI710,GI711,GI714,GI715,GI716</BUYITEMS>
+		    <BUYBACKGROUND>2</BUYBACKGROUND>
+            <SELLTEXT>I'll buy back any potions you don't want.</SELLTEXT>            
+            <SELLTYPE>CATEGORY_POTION</SELLTYPE>
+            <ACTIONS>NPC_BUY_GENERIC,NPC_SELL,NPC_GAME</ACTIONS>
+        </NPC>
+		<NPC> 
+			<ID>NPC01337</ID>
+			<NAME>Lily</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+			<!-- 373 395 -->
+			<XPOS>373</XPOS>
+			<YPOS>395</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>0.9</SCALE>
+			<COLOR>0</COLOR> -->
+			<!--<CLOTHING>C009a,C532a,C603a,C202a</CLOTHING>-->
+			<!-- Cold weather clothes for Lily: C410o,C307a,C204l -->
+			<CLOTHING>C065a,C532a,C603a,C202a</CLOTHING>
+			<!-- WINTER OLYMPICS 2018 -->
+			<!-- <BUYITEMS>C357,C099a,C099b,C099d,C099e,C099f,C753a,C753b,C753c,C753d,C753f,C812a,C812b,C812c,C812d,C812e,C812f,C812g,C812h,C721a,C721b,C721c,C721d,C721e,C721f,C721g,C721h,C217</BUYITEMS>-->
+			<BUYBACKGROUND>1</BUYBACKGROUND>
+			<TITLE>Lily</TITLE>
+			<GREETING>Hello! Welcome to Lily's Shop!</GREETING>
+			<BUYTEXT>Welcome to Harvest Festival 2019! These items are coming back for one last time.</BUYTEXT>
+			<BUYITEMS>C809a,C809b,C809c,C809d,C809e,C022a,C022b,C022c,C022d,C022e,C022f,C049a,C049b,C062,C117,C210,C358,C405a,C405b,C405c,C595,C606a,C606e</BUYITEMS>
+			<!-- <ACTIONS>NPC_BUY_PETS,NPC_RETURN_PETS</ACTIONS> -->
+			<ACTIONS></ACTIONS>
+		</NPC>
+        <!--<NPC> 
+            <ID>NPC072</ID>
+            <NAME>Unicorn</NAME>
+            <MODEL>AVATAR_MODEL_UNICORN</MODEL>
+            <XPOS>70</XPOS>
+            <YPOS>40</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>1.1</SCALE>
+            <COLOR>0</COLOR>
+            <CLOTHING></CLOTHING>
+            <BUYITEMS></BUYITEMS>
+            <TITLE>Unicorn</TITLE>
+            <GREETING>Unicorn</GREETING>
+            <BUYTEXT></BUYTEXT>
+            <ACTIONS></ACTIONS>
+        </NPC>	-->	
+		<NPC> 
+			<ID>NPC0121</ID>
+			<NAME>Max</NAME> 
+			<!--<XPOS>784</XPOS>
+			<YPOS>412</YPOS>-->	
+			<XPOS>421</XPOS>
+			<YPOS>317</YPOS>
+			<DIRECTION>7</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>1</SCALE>
+			<COLOR>0</COLOR> 
+			<CLOTHING>C301c,C494d,C215n,C007da</CLOTHING>
+			<TITLE>Max</TITLE>
+			<GREETING>Howdy</GREETING>
+			<ACTIONS></ACTIONS>
+		</NPC>
+        
+		
+		<!-- Sam takes Lily's place
+		<NPC> 
+			<ID>NPC01337</ID>
+			<NAME>Sam</NAME>
+			373 395
+		    <XPOS>373</XPOS>
+			<YPOS>395</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>0.9</SCALE>
+			<COLOR>0</COLOR>
+			<CLOTHING>C301a,C472a</CLOTHING>
+			<BUYITEMS>C009,C065a,C065b</BUYITEMS>
+			<TITLE>Lily</TITLE>
+			<GREETING>Hello! I'm substituting for Lily!</GREETING>
+			<BUYTEXT>I'm substituting for Lily! She is organizing the celebration in The Big Scoop. These are the backgrounds from the 2017 Background Week.</BUYTEXT>
+			<BUYITEMS>BG115,BG116,BG117,BG118,BG119,BG120,BG121,BG122,BG123,BG124</BUYITEMS>
+			<ACTIONS>NPC_BUY_GENERIC</ACTIONS>
+		</NPC> -->
+		
+		<!--<NPC> 
+			<ID>NPC420</ID>
+			<NAME>Sam</NAME> 
+			<XPOS>373</XPOS>
+			<YPOS>395</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>1</SCALE>
+			<COLOR>0</COLOR> 
+			<CLOTHING>C301a,C472a</CLOTHING>
+			<GREETING>Howdy</GREETING>
+			<TITLE>Sam</TITLE>
+            <GREETING>Hey there!</GREETING>
+            <BUYTEXT>I'm substituting for Lily! She is organizing the celebration in The Big Scoop. These are the backgrounds from the 2017 Background Week.</BUYTEXT>
+            <BUYITEMS>BG115,BG116,BG117,BG118,BG119,BG120,BG121,BG122,BG123,BG124</BUYITEMS>
+		    <BUYBACKGROUND>1</BUYBACKGROUND>
+            <ACTIONS>NPC_BUY_GENERIC</ACTIONS>
+		</NPC>-->
+		
+		
+<!-- 	<NPC>
+            <ID>NPC420</ID>
+            <NAME>Sam</NAME>
+            <XPOS>747</XPOS>
+            <YPOS>446</YPOS>
+            <DIRECTION>7</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.9</SCALE>   
+            <COLOR>0</COLOR>
+			<!--Warm weather clothes for paige: C438d,C301a,C104b,C203h-->
+			<!--Cold weather clothes for paige: C020a,C906a,C463c,C602g,C202h-->
+			<!--spring weather clothes for paige: C037f,C115e,C439i,C301m,C203d,C902f-->
+			<!--winter weather clothes for paige: C023h,C518a,C304a,C204g-->
+            <!--<CLOTHING>C105f,C603c,C438d,C023f,C213f</CLOTHING>-->
+			<!--<CLOTHING>C090a,C742,C124e,C611a</CLOTHING>-->
+<!--	    <CLOTHING>C301a,C472a</CLOTHING>
+            <TITLE>Sam</TITLE>
+            <GREETING>Hello my dear.</GREETING>
+            <BUYTEXT>Woah! We just launched! Enjoy those limited items!</BUYTEXT>
+            <BUYITEMS>C457b,C457c,C457d,C457e,C457f,C472a,C472b,C472c,C472d,C472e,C472f,C007a,C007b,C007c,C007d,C007e,C007f,C007g,C007h,C007i,C007j</BUYITEMS>
+		    <BUYBACKGROUND>2</BUYBACKGROUND>      
+            <ACTIONS>NPC_BUY_GENERIC</ACTIONS>
+        </NPC> -->
+   	</LOCATION>
+	<LOCATION ID="EN_graveyard">
+		<!--<NPC>
+			<ID>NPC017</ID>
+			<NAME>Cauldron of Prizes</NAME>
+			<MODEL>AVATAR_MODEL_CAULDRON</MODEL>		
+			<XPOS>255</XPOS>
+			<YPOS>330</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>1.0</SCALE>   
+			<COLOR>2</COLOR>
+			<CLOTHING></CLOTHING>
+			<TITLE>Cauldron of Prizes</TITLE>
+			<GREETING>Howdy</GREETING>
+			<ACTIONS></ACTIONS>
+		</NPC>    -->
+		<NPC>
+			<ID>NPC027</ID>
+			<NAME>Stranger</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>		
+			<XPOS>359</XPOS>
+			<YPOS>269</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>0.8</SCALE>   
+			<COLOR>1</COLOR>
+			<CLOTHING>C001,C123,C801,C201a</CLOTHING>
+			<TITLE>Stranger</TITLE>
+			<GREETING>Hello, there.</GREETING>
+			<ACTIONS></ACTIONS>
+		</NPC> 
+	</LOCATION>
+	<LOCATION ID="EN_palm_island">
+		<NPC>
+			<ID>NPC028</ID>
+			<NAME>Stranger</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>		
+			<XPOS>379</XPOS>
+			<YPOS>300</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>1.0</SCALE>   
+			<COLOR>1</COLOR>
+			<CLOTHING>C001,C123,C801,C201a</CLOTHING>
+			<TITLE>Stranger</TITLE>
+			<GREETING>Hello, there.</GREETING>
+			<ACTIONS></ACTIONS>
+		</NPC>
+	</LOCATION>
+    <LOCATION ID="EN_fishing_hole">
+        <NPC>
+            <ID>NPC004</ID>
+            <NAME>Joe</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>200</XPOS>
+            <YPOS>240</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.85</SCALE>   
+            <COLOR>8</COLOR>
+            <!--spring weather clothes for joe: C489c,C022-->
+            <!--winter weather clothes for joe:C514c,C022 -->
+            <!--<CLOTHING>C489c,C022</CLOTHING>-->
+			<!--<CLOTHING>C053e,C124c,C508a</CLOTHING>-->
+			<CLOTHING>C489c,C022</CLOTHING>
+            <TITLE>Fishy Joe</TITLE>
+            <GREETING>Howdy, I like fish.</GREETING>
+            <GAMETEXT>Have you ever been sky diving before? I must say I find it rather scary. But, I'm sure you'll be ok. Have fun!</GAMETEXT>
+            <BUYTEXT>You wanna go fishin', eh? Well, you'll be wanting a fishin' pole then.</BUYTEXT>
+            <BUYITEMS>GI602,GI606,GI603,GI604</BUYITEMS>
+            <BUYBACKGROUND>1</BUYBACKGROUND>
+            <SELLTEXT>How's the fishin' today? Catch anything good?</SELLTEXT>
+            <SELLTYPE>CATEGORY_FISH</SELLTYPE>
+            <ACTIONS>NPC_SELL,NPC_BUY_GENERIC</ACTIONS>
+        </NPC>
+       <!--<NPC>
+            <ID>NPC013</ID>
+            <NAME>Kapono</NAME>
+            <XPOS>631</XPOS>
+            <YPOS>158</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.90</SCALE>   
+            <COLOR>7</COLOR>
+	        <CLOTHING>C913,C105g,C041d,C606c</CLOTHING>
+            <TITLE>Kapono</TITLE>
+            <GREETING>Howdy</GREETING>
+            <ACTIONS></ACTIONS>
+        </NPC>  -->
+        <!--<NPC>
+            <ID>NPC020</ID>
+            <NAME>Lucy</NAME>
+            <XPOS>582</XPOS>
+            <YPOS>193</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.80</SCALE>   
+            <COLOR>3</COLOR>
+			<CLOTHING>C605f,C037f</CLOTHING>
+            <TITLE>Lucy</TITLE>
+            <GREETING>Howdy</GREETING>
+            <ACTIONS></ACTIONS>
+        </NPC>-->
+    </LOCATION>
+    <LOCATION ID="EN_townsquare">
+		<!--<NPC>
+			<ID>NPC019</ID>
+			<NAME>Chilly</NAME>
+			<MODEL>AVATAR_MODEL_SNOWMAN_NPC</MODEL>		
+			<XPOS>596</XPOS>
+			<YPOS>530</YPOS>
+			<DIRECTION>1</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>0.85</SCALE>   
+			<COLOR>0</COLOR>
+			<CLOTHING></CLOTHING>
+			<TITLE>Chilly</TITLE>
+			<GREETING>Howdy! You can buy colored snowmen here.</GREETING>
+			<BUYTEXT>It's March of the Snowmen! Get yo'self a colored snowman for your treehouse!</BUYTEXT>
+			<BUYITEMS>F925a,F925b,F925c,F925d,F925e,F925f,F925g,F925h,F925i,F925j,F925k</BUYITEMS>
+			<ACTIONS>NPC_BUY_GENERIC</ACTIONS>
+		</NPC>  -->
+        <NPC>
+        <!--Change x, y pos for tammy when halloween party scene is in to x=238, y=491, normal is 805, 370-->
+        <!--Change x, y pos for tammy when harvest festival scene is in to x=238, y=491, normal is 805, 370-->
+            <ID>NPC005</ID>
+            <NAME>Tammy</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>805</XPOS>
+            <YPOS>370</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.9</SCALE>   
+            <COLOR>2</COLOR>
+            <!--spring weather clothes for tammy: C804a,C202p,C023f-->            
+            <!--winter weather clothes for tammy: C020a,C906a,C463c,C602g,C202h-->            
+            <!--<CLOTHING>C604a,C048b,C102a</CLOTHING>-->
+			<CLOTHING>C804a,C202p,C023f</CLOTHING>
+            <TITLE>Tammy Tomato</TITLE>
+            <GREETING>Greetings, I'm Tammy Tomato. I buy and sell fruits and vegetables.</GREETING>
+            <GAMETEXT>Have you ever been sky diving before? I must say I find it rather scary. But, I'm sure you'll be ok. Have fun!</GAMETEXT>
+            <BUYTEXT>Would you like some ice cream? I hope I have what you like. My flavors change regularly so check back often.</BUYTEXT>
+            <SELLTEXT>If you have any fresh fruits or vegetables, I would like to purchase them.</SELLTEXT>
+            <SELLTYPE>CATEGORY_FRUIT,CATEGORY_VEGETABLE,CATEGORY_MUSHROOM,CATEGORY_COCONUT</SELLTYPE>
+            <ACTIONS>NPC_SELL</ACTIONS>
+        </NPC>
+        <NPC>
+            <ID>NPC006</ID>
+            <NAME>Steve</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+			<!-- 150 500 -->
+            <XPOS>150</XPOS>
+            <YPOS>500</YPOS>
+            <!--<DIRECTION>1</DIRECTION> -->
+			<DIRECTION>1</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>1.0</SCALE>   
+            <COLOR>4</COLOR>
+            <!--spring weather clothes for steve: C007d,C205b,C303g,C469b-->            
+            <!--winter weather clothes for steve: C007d,C205b,C303g,C462c-->            
+            <!--<CLOTHING>C303c,C520e,C007h,C205c</CLOTHING>-->
+			<CLOTHING>C007d,C205b,C303g,C469b</CLOTHING>
+            <TITLE>Steve McClean</TITLE>
+            <GREETING>Greetings, I'm Steve McClean. I give you money for trash. Ecology FTW!</GREETING>
+            <GAMETEXT>Have you ever been sky diving before? I must say I find it rather scary. But, I'm sure you'll be ok. Have fun!</GAMETEXT>
+            <BUYTEXT>Would you like some ice cream? I hope I have what you like. My flavors change regularly so check back often.</BUYTEXT>
+            <SELLTEXT>It's up to all of us to keep this city clean. Bring me any cans and bottles you find and I'll recycle them.</SELLTEXT>
+            <SELLTYPE>CATEGORY_TRASH</SELLTYPE>
+            <ACTIONS>NPC_SELL</ACTIONS>
+        </NPC>
+    </LOCATION>
+    <LOCATION ID="EN_townsquare2">
+	
+		<!--<NPC>
+			<ID>NPC019</ID>
+			<NAME>Chilly</NAME>
+			<MODEL>AVATAR_MODEL_SNOWMAN_NPC</MODEL>		
+			<XPOS>235</XPOS>
+			<YPOS>290</YPOS>
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>true</FACELEFT>
+			<SCALE>0.85</SCALE>   
+			<COLOR>0</COLOR>
+			<CLOTHING></CLOTHING>
+			<TITLE>Chilly</TITLE>
+			<GREETING>Howdy</GREETING>
+			<ACTIONS></ACTIONS>
+        </NPC>-->
+        <NPC>
+            <ID>NPC007</ID>
+            <NAME>Jim</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>592</XPOS>
+            <YPOS>342</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>true</FACELEFT>
+            <SCALE>0.95</SCALE>   
+            <COLOR>7</COLOR>
+            <!--spring weather clothes for jim: C038i,C489a,C204g,C303f-->            
+            <!--winter weather clothes for jim: C038i,C518c,C204g,C303f-->            
+            <!--<CLOTHING>C489a,C204g,C303f,C105k,C212c</CLOTHING>-->
+			<CLOTHING>C038i,C489a,C204g,C303f</CLOTHING>
+            <TITLE>Jim</TITLE>
+            <GREETING>Howdy, I like fish.</GREETING>
+            <BUYTEXT>Before you can do any mining for gemstones and minerals, you'll need a rock hammer and maybe a shovel.</BUYTEXT>
+            <BUYITEMS>GI603,GI604</BUYITEMS>
+            <BUYBACKGROUND>5</BUYBACKGROUND>
+            <SELLTEXT>My jewelry makers have been asking for more gems lately. If you find any I'll give you a fair price. Sapphires and Rubies are really in demand.</SELLTEXT>
+            <SELLTYPE>CATEGORY_GEM,CATEGORY_TREASURE,CATEGORY_TOOLS</SELLTYPE>
+            <ACTIONS>NPC_SELL,NPC_BUY_GENERIC</ACTIONS>
+        </NPC>
+        <NPC>
+            <ID>NPC009</ID>
+            <NAME>Mr. Elmhurst</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <!---<XPOS>240</XPOS>
+            <YPOS>530</YPOS>-->
+			<XPOS>240</XPOS>
+			<YPOS>530</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>1.1</SCALE>   
+            <COLOR>0</COLOR>
+            <!--<CLOTHING>C801a,C201a,C001</CLOTHING>-->
+			<!--<CLOTHING>C801a,C518c,C201a</CLOTHING>-->
+			<CLOTHING>C801a,C201a,C001</CLOTHING>
+            <TITLE>Mr. Elmhurst</TITLE>
+            <GREETING>Howdy</GREETING>
+            <BUYTEXT>It's the final harvest. Make sure to enjoy!</BUYTEXT>
+			<!--halloween items from 2009: C473a,F014,F016,F017-->
+			<!--christmas items from 2010:F901,F902,F903,F904,F905,F906,F907,F908-->
+            <BUYITEMS>F946,F947,F948,F949,F950,F951,F952,F953,F954,F955,F956</BUYITEMS>
+			<!---<BUYBACKGROUND>5</BUYBACKGROUND>-->
+			<BUYBACKGROUND>1</BUYBACKGROUND>
+            <SELLTEXT>I'm looking for old furniture for my workshop. As my grandpa used to say "A little paint and a little glue and this old junk's as good as new!"</SELLTEXT>
+            <SELLTYPE>CATEGORY_FURNITURE</SELLTYPE>
+			<!--add this to the line below when mr elmhurst is ready to sell stuff: NPC_BUY_GENERIC-->
+            <ACTIONS>NPC_SELL</ACTIONS>
+        </NPC>         
+		<NPC>
+            <ID>NPC097</ID>
+            <NAME>John</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+			<!-- 150 260 -->
+		    <XPOS>150</XPOS>
+			<YPOS>265</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.85</SCALE>   
+            <COLOR>14</COLOR>
+            <!--<CLOTHING>C801a,C201a,C001</CLOTHING>-->
+			<!--<CLOTHING>C801a,C518c,C201a</CLOTHING>-->
+		    <!--<CLOTHING>C801g,C201e,C001f</CLOTHING>-->
+			<CLOTHING>C801g,C201e,C001f</CLOTHING>
+            <TITLE>John</TITLE>
+            <GREETING>Howdy</GREETING>
+            <BUYTEXT>Stop by to get some popcorn and 3D glasses before entering the cinema.</BUYTEXT>
+            <BUYITEMS>C658,C109</BUYITEMS>
+			<BUYBACKGROUND>1</BUYBACKGROUND>
+            <ACTIONS>NPC_BUY_GENERIC</ACTIONS>
+        </NPC>
+	                  
+
+	  
+	<!-- <NPC>
+		<ID>NPC017</ID>
+		<NAME>Cauldron of Prizes</NAME>
+		<MODEL>AVATAR_MODEL_CAULDRON</MODEL>		
+		<XPOS>235</XPOS>
+		<YPOS>290</YPOS>
+		<DIRECTION>0</DIRECTION>
+		<FACELEFT>false</FACELEFT>
+		<SCALE>1.0</SCALE>   
+		<COLOR>0</COLOR>
+		<CLOTHING></CLOTHING>
+		<TITLE>Cauldron of Prizes</TITLE>
+		<GREETING>Howdy</GREETING>
+		<ACTIONS></ACTIONS>
+	 </NPC>   -->
+
+    </LOCATION>
+    <LOCATION ID="EN_clothes_store">
+        <NPC>
+            <ID>NPC008</ID>
+            <NAME>Fitch</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>195</XPOS>
+            <YPOS>325</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>1.0</SCALE>   
+            <COLOR>2</COLOR>
+			<!--<CLOTHING>C801b,C201</CLOTHING -->
+            <CLOTHING>C801b,C201</CLOTHING>
+            <TITLE>Fitch</TITLE>
+            <GREETING>Yo dude. Check out these threads!</GREETING>
+            <BUYTEXT>You can purchase the items below if you're old enough.</BUYTEXT>
+            <BUYBACKGROUND>8</BUYBACKGROUND>
+            <SELLTEXT>I'll take your old clothes.</SELLTEXT>
+            <SELLTYPE>CATEGORY_CLOTHES,CATEGORY_BACKGROUND,CATEGORY_PAINT</SELLTYPE>
+            <ACTIONS>NPC_BUY_CLOTHES,NPC_BUY_FLAG_SHIRTS,NPC_BIRTHDAY_PRIZES,NPC_SELL</ACTIONS>
+        </NPC>
+    </LOCATION>
+    <LOCATION ID="EN_bunny_field">
+        <NPC>
+            <ID>NPC010</ID>
+            <NAME>Farmer Dan</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>790</XPOS>
+            <YPOS>235</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>true</FACELEFT>
+            <SCALE>0.8</SCALE>   
+            <COLOR>0</COLOR>
+            <!--<CLOTHING>C440,C301c,C201b,C008</CLOTHING>-->
+			<!--<CLOTHING>C519l,C301c,C201b,C008</CLOTHING>-->
+			<CLOTHING>C440,C301c,C201b,C008</CLOTHING>
+            <TITLE>Farmer Dan</TITLE>
+            <GREETING></GREETING>
+            <BUYTEXT>My supplies are limited right now but everything is fresh.</BUYTEXT>
+            <BUYBACKGROUND>6</BUYBACKGROUND>
+            <SELLTEXT>Did you find any veggies in the field?</SELLTEXT>
+            <SELLTYPE>CATEGORY_FRUIT,CATEGORY_VEGETABLE,CATEGORY_MUSHROOM</SELLTYPE>
+            <ACTIONS>NPC_SELL</ACTIONS>
+        </NPC>
+    </LOCATION>
+	<LOCATION ID="EN_orchard">
+        <!--<NPC>
+            <ID>NPC041</ID>
+            <NAME>Jack</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>395</XPOS>
+            <YPOS>330</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>true</FACELEFT>
+            <SCALE>1</SCALE>   
+            <COLOR>0</COLOR>
+			<CLOTHING>C656f,C657e,C654</CLOTHING>
+            <TITLE>Jack</TITLE>
+            <GREETING></GREETING>
+            <BUYTEXT></BUYTEXT>
+            <BUYBACKGROUND>1</BUYBACKGROUND>
+            <SELLTEXT></SELLTEXT>
+            <SELLTYPE></SELLTYPE>
+            <ACTIONS></ACTIONS>
+        </NPC>-->
+    </LOCATION>
+    <LOCATION ID="EN_petstore">
+		<NPC>
+            <ID>NPC012</ID>
+            <NAME>Izzy</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>610</XPOS>
+            <YPOS>235</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>1.25</SCALE>   
+            <COLOR>8</COLOR>
+			<!--<CLOTHING>C471c,C301e,C023d,C108,C204b</CLOTHING> -->
+            <CLOTHING>C471c,C301e,C023d,C108,C204b</CLOTHING>
+            <TITLE>Izzy</TITLE>
+            <GREETING></GREETING>
+            <BUYTEXT>Buy your hatchling eggs here.</BUYTEXT>
+            <ACTIONS>NPC_RETURN_PETS,NPC_BUY_PETS</ACTIONS>
+        </NPC>
+    </LOCATION>    
+    <LOCATION ID="EN_harvest_grove">
+	 <NPC>
+		<ID>NPC014</ID>
+		<NAME>Farmer Ned</NAME>
+		<MODEL>AVATAR_MODEL_PANDA</MODEL>
+		<XPOS>820</XPOS>
+		<YPOS>272</YPOS>
+		<DIRECTION>0</DIRECTION>
+		<FACELEFT>false</FACELEFT>
+		<SCALE>0.90</SCALE>   
+		<COLOR>7</COLOR>
+	    <!--<CLOTHING>C809a,C010a,C201b,C117</CLOTHING>-->
+		<!--<CLOTHING>C517j,C809a,C010a,C201b,C117</CLOTHING>-->
+		<CLOTHING>C809a,C010a,C201b,C117</CLOTHING>
+		<TITLE>Farmer Ned</TITLE>
+		<GREETING>Howdy</GREETING>
+	    <BUYTEXT>Howdy there. What can I help you find today?</BUYTEXT>
+	    <BUYITEMS></BUYITEMS>
+	    <BUYBACKGROUND>6</BUYBACKGROUND>
+<!--	<BUYBACKGROUND>4</BUYBACKGROUND> -->
+		<SELLTEXT>You visited my barn yet? It's just over yonder.</SELLTEXT>
+		<SELLTYPE>CATEGORY_VEGETABLE,CATEGORY_MUSHROOM</SELLTYPE>
+		<ACTIONS>NPC_SELL</ACTIONS>
+	 </NPC>     
+	<!-- <NPC> 
+			<ID>NPC040</ID>
+			<NAME>Coach</NAME> 
+			<XPOS>923</XPOS>
+			<YPOS>259</YPOS>
+			<DIRECTION>7</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>1</SCALE>
+			<COLOR>0</COLOR> 
+			<CLOTHING>C533h,C084d,C305i</CLOTHING>
+			<TITLE>Coach</TITLE>
+			<GREETING>Howdy</GREETING>
+			<ACTIONS></ACTIONS>
+		</NPC> -->
+	 
+	<!--<NPC>
+		<ID>NPC025</ID>
+		<NAME>Scarecrow</NAME>
+		<MODEL>AVATAR_MODEL_SCARECROW</MODEL>
+		<XPOS>990</XPOS>
+		<YPOS>250</YPOS>
+		<DIRECTION>0</DIRECTION>
+		<FACELEFT>false</FACELEFT>
+		<SCALE>0.90</SCALE>   
+		<COLOR>7</COLOR>
+	    	<CLOTHING>C809a,C010a,C201b,C117</CLOTHING>
+		<TITLE>Scarecrow</TITLE>
+		<GREETING>Howdy</GREETING>
+		<ACTIONS></ACTIONS>
+	 </NPC> -->
+	 
+    </LOCATION>    
+    <LOCATION ID="EN_treehouse_lobby">
+        <NPC>
+	    <ID>NPC011</ID>
+	    <NAME>Zing  Ballyhoo</NAME>
+	    <XPOS>775</XPOS>
+	    <YPOS>470</YPOS>
+	    <DIRECTION>0</DIRECTION>
+	    <FACELEFT>true</FACELEFT>
+	    <SCALE>1.2</SCALE>   
+	    <COLOR>1</COLOR>
+	    <CLOTHING>C018,C459m,C301j,C105c</CLOTHING>
+	    <TITLE>Zing  Ballyhoo</TITLE>
+	    <GREETING></GREETING>
+	    <ACTIONS></ACTIONS>
+        </NPC>
+        <NPC>
+            <ID>NPC018</ID>
+            <NAME>Questy</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>370</XPOS>
+            <YPOS>407</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>1.2</SCALE>   
+            <COLOR>7</COLOR>
+            <CLOTHING>C123,C125,C716,C612b,C063b</CLOTHING>
+            <TITLE>Questy Greybeard</TITLE>
+            <GREETING>Hello, I'm Questy Greybeard. </GREETING>
+            <BUYTEXT>Ah, I can tell you have proved yourself worthy by gaining much power. Perhaps you would like to reward yourself with some of my very special merchandise.</BUYTEXT>
+            <ACTIONS>NPC_QUEST_REWARDS_CATALOG</ACTIONS>
+        </NPC>
+    </LOCATION>    
+    <LOCATION ID="EN_darkroom">
+	 <NPC>
+		<ID>NPC015</ID>
+		<NAME>Jasper</NAME>
+		<MODEL>AVATAR_MODEL_GHOST1</MODEL>		
+		<XPOS>685</XPOS>
+		<YPOS>347</YPOS>
+		<DIRECTION>0</DIRECTION>
+		<FACELEFT>true</FACELEFT>
+		<SCALE>1.0</SCALE>   
+		<COLOR>0</COLOR>
+		<CLOTHING></CLOTHING>
+		<TITLE>Ghost</TITLE>
+		<GREETING>Howdy</GREETING>
+		<ACTIONS></ACTIONS>
+	 </NPC>             
+    </LOCATION> 
+	<LOCATION ID="EN_parlour">
+	 <!--<NPC>
+		<ID>NPC016</ID>
+		<NAME>Draco</NAME>
+		<MODEL>AVATAR_MODEL_GHOST1</MODEL>		
+		<XPOS>100</XPOS>
+		<YPOS>250</YPOS>
+		<DIRECTION>0</DIRECTION>
+		<FACELEFT>false</FACELEFT>
+		<SCALE>1.0</SCALE>   
+		<COLOR>0</COLOR>
+		<CLOTHING></CLOTHING>
+		<TITLE>Draco the Ghost</TITLE>
+		<GREETING>Howdy</GREETING>
+		<ACTIONS></ACTIONS>
+	 </NPC>      --> 
+    </LOCATION> 	
+    <LOCATION ID="EN_forest">
+	 <NPC>
+		<ID>NPC021</ID>
+		<NAME>Trixie</NAME>
+		<MODEL>AVATAR_MODEL_DRAGON_MOUNT</MODEL>		
+		<XPOS>535</XPOS>
+		<YPOS>247</YPOS>
+		<DIRECTION>0</DIRECTION>
+		<FACELEFT>true</FACELEFT>
+		<SCALE>0.8</SCALE>   
+		<COLOR>4</COLOR>
+		<CLOTHING>M010b,C077,C726,C611a,C910a</CLOTHING>
+		<TITLE>Trixie</TITLE>
+		<GREETING>Howdy</GREETING>
+		<ACTIONS></ACTIONS>
+	 </NPC>
+    </LOCATION>    
+    <LOCATION ID="EN_beach">
+	 <NPC>
+		<ID>NPC022</ID>
+		<NAME>Dragon</NAME>
+		<MODEL>AVATAR_MODEL_DRAGON</MODEL>		
+		<XPOS>285</XPOS>
+		<YPOS>247</YPOS>
+		<DIRECTION>1</DIRECTION>
+		<FACELEFT>false</FACELEFT>
+		<SCALE>0.9</SCALE>   
+		<COLOR>0</COLOR>
+		<CLOTHING></CLOTHING>
+		<TITLE>Dragon</TITLE>
+		<GREETING>Howdy</GREETING>
+		<ACTIONS></ACTIONS>
+	 </NPC>             
+    </LOCATION>    
+    <LOCATION ID="EN_barn">
+	 <NPC>
+		<ID>NPC024</ID>
+		<NAME>Maggie</NAME>
+		<MODEL>AVATAR_MODEL_PANDA</MODEL>
+		<XPOS>395</XPOS>
+		<YPOS>427</YPOS>
+		<DIRECTION>0</DIRECTION>
+		<FACELEFT>false</FACELEFT>
+		<SCALE>1.0</SCALE>   
+		<COLOR>14</COLOR>
+		<!--<CLOTHING>C008c,C307d,C204l,C440e,C730</CLOTHING>-->
+		<CLOTHING>C008c,C307d,C204l,C440e,C730</CLOTHING>
+		<SELLTYPE>CATEGORY_MOUNT</SELLTYPE>
+		<SELLTEXT>I'll buy back your horses, dragons and actually any companions of yours.</SELLTEXT>
+		<TITLE>Stable Master</TITLE>
+		<GREETING>Howdy</GREETING>
+		<ACTIONS>NPC_BUY_COMPANIONS,NPC_SELL</ACTIONS>
+	 </NPC>
+	</LOCATION>
+	<LOCATION ID="EN_staff">
+     <NPC>
+            <ID>NPC01339</ID>
+            <NAME>Debug</NAME>
+            <XPOS>365</XPOS>
+            <YPOS>300</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.9</SCALE>   
+            <COLOR>0</COLOR>
+			<CLOTHING>C009,C079,C353a,C353c,C353e,C441a,C441b,C441j,C493a,C727a,!C727c,C728a,C728d,C728e,C754a,C754d,C754e,C209,C219c,C209h,C209r,C210,F956,F052,F411ai,F411bi,F411di,F411fi,F411gi</CLOTHING>
+            <TITLE>free spaget</TITLE>
+            <GREETING>SOMEBODY TOUCHA MY SPAGET</GREETING>
+            <GAME>MG008</GAME>
+            <GAMETEXT>Would you like to play Row Your Boat?</GAMETEXT>
+            <ACTIONS>NPC_BUY_GENERIC,NPC_GAME</ACTIONS>
+     </NPC> 
+    </LOCATION>
+	<LOCATION ID="EN_lighthouse_island">
+        <NPC>
+            <ID>NPC042</ID>
+            <NAME>Pierre</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+            <XPOS>590</XPOS>
+            <YPOS>375</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>true</FACELEFT>
+            <SCALE>1.1</SCALE>   
+            <COLOR>0</COLOR>
+			<!-- <CLOTHING>C019,C107,C461a,C301p</CLOTHING> -->
+			<!--<CLOTHING>C019,C107,C518b,C301p</CLOTHING>-->
+			<CLOTHING>C019,C107,C461a,C301p</CLOTHING>
+            <TITLE>Pierre the Pirate</TITLE>
+            <GREETING>Howdy!</GREETING>
+            <GAME>MG008</GAME>
+            <GAMETEXT>Would you like to play Row Your Boat?</GAMETEXT>
+            <ACTIONS>NPC_GAME</ACTIONS>
+        </NPC>	 
+    </LOCATION>
+	<LOCATION ID="EN_community_center">
+		<NPC>
+			<ID>NPC5524</ID>
+			<NAME>Max</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>		
+			<XPOS>360</XPOS>
+			<YPOS>312</YPOS>
+			<!---<XPOS>433</XPOS>
+			<YPOS>312</YPOS>-->
+			<DIRECTION>0</DIRECTION>
+			<FACELEFT>false</FACELEFT>
+			<SCALE>1.0</SCALE>
+			<COLOR>25</COLOR>
+			<!--<CLOTHING>C588a,C105t,C587l,C301h,C204i</CLOTHING>-->
+			<CLOTHING>C588a,C105t,C587l,C301h,C204i</CLOTHING>
+			<TITLE>Max</TITLE>
+			<GREETING>Hello,there.</GREETING>
+			<GAME>MG001</GAME>
+            <GAMETEXT>Would you like to play Panda Pairs?</GAMETEXT>
+			<ACTIONS>NPC_BUY_GOLD_PRIZES,NPC_GAME</ACTIONS>
+		</NPC>
+	</LOCATION>
+	<LOCATION ID="EN_party13">
+		<NPC>
+            <ID>NPC524164</ID>
+            <NAME>Faraway King</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+		    <XPOS>482</XPOS>
+			<YPOS>182</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.95</SCALE>   
+            <COLOR>28</COLOR>
+			<CLOTHING>C714,C624o,C582b,C206m</CLOTHING>
+            <TITLE>Faraway King</TITLE>
+            <GREETING>Howdy</GREETING>
+            <BUYTEXT>Welcome to the throne hall! I'm the King! I hope that our nations can coexist together. And also, EXPLORE2019</BUYTEXT>
+            <BUYITEMS>C355c,C355d,C355e,C355f,C355h,C065h,C065i,C065j,C065k,C065l,C561h,C561i</BUYITEMS>
+			<BUYBACKGROUND>5</BUYBACKGROUND>
+            <ACTIONS></ACTIONS>
+        </NPC>
+	</LOCATION>
+	<LOCATION ID="EN_party5">
+		<NPC>
+            <ID>NPC524161</ID>
+            <NAME>Faraway Citizen</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+		    <XPOS>230</XPOS>
+			<YPOS>439</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>1</SCALE>   
+            <COLOR>25</COLOR>
+			<CLOTHING>C401d,C203d,C354c,C305b</CLOTHING>
+            <TITLE>Faraway Citizen</TITLE>
+            <GREETING>Howdy</GREETING>
+            <BUYTEXT>I guess you are trying to find the pyramid. You are doing good, keep it up!</BUYTEXT>
+            <BUYITEMS>C040a,C040b</BUYITEMS>
+			<BUYBACKGROUND>5</BUYBACKGROUND>
+            <ACTIONS></ACTIONS>
+        </NPC>
+	</LOCATION>
+	<LOCATION ID="EN_party8">
+		<NPC>
+            <ID>NPC524162</ID>
+            <NAME>Faraway Citizen</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+		    <XPOS>742</XPOS>
+			<YPOS>435</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>true</FACELEFT>
+            <SCALE>1</SCALE>   
+            <COLOR>25</COLOR>
+			<CLOTHING>C097d,C301j,C401a,C203e</CLOTHING>
+            <TITLE>Faraway Citizen</TITLE>
+            <GREETING>Howdy</GREETING>
+            <BUYTEXT>You look like you're from the city land, isn't it? I can say you have almost reached the pyramid. Good job!</BUYTEXT>
+            <BUYITEMS>C040d,C040e</BUYITEMS>
+			<BUYBACKGROUND>5</BUYBACKGROUND>
+            <ACTIONS></ACTIONS>
+        </NPC>
+	</LOCATION>
+	<LOCATION ID="EN_party10">
+		<NPC>
+            <ID>NPC524163</ID>
+            <NAME>Faraway Citizen</NAME>
+			<MODEL>AVATAR_MODEL_PANDA</MODEL>
+		    <XPOS>720</XPOS>
+			<YPOS>450</YPOS>
+            <DIRECTION>1</DIRECTION>
+            <FACELEFT>true</FACELEFT>
+            <SCALE>1</SCALE>   
+            <COLOR>25</COLOR>
+			<CLOTHING>C606a,C203i,C491l,C013</CLOTHING>
+            <TITLE>Faraway Citizen</TITLE>
+            <GREETING>Howdy</GREETING>
+            <BUYTEXT>You've found the pyramid! Now you know more about our civilization, just like we know about yours.</BUYTEXT>
+            <BUYITEMS>C040c,C040h,C040i,C013</BUYITEMS>
+			<BUYBACKGROUND>5</BUYBACKGROUND>
+            <ACTIONS></ACTIONS>
+        </NPC>
+	</LOCATION>
+    <!-- <LOCATION ID="EN_party2">
+        <NPC>
+            <ID>NPC01338</ID>
+            <NAME>Sam</NAME>
+            <XPOS>365</XPOS>
+            <YPOS>300</YPOS>
+            <DIRECTION>0</DIRECTION>
+            <FACELEFT>false</FACELEFT>
+            <SCALE>0.9</SCALE>   
+            <COLOR>0</COLOR>
+			<CLOTHING>C032a,C301a,C472a,C757a</CLOTHING>
+            <TITLE>Sam's Shop</TITLE>
+            <GREETING>Happy New Year!</GREETING>
+            <GAME>MG001</GAME>
+            <GAMETEXT>Would you like to play Panda Pairs?</GAMETEXT>
+            <BUYTEXT>Celebrate New Year's Eve in mPandanda Land with these items.</BUYTEXT>
+            <BUYITEMS>C032a,C032b,C032c,C032d,C032e,C032f,C757a,C757b,C757c,C757d,C757e,C757f</BUYITEMS>
+		    <BUYBACKGROUND>7</BUYBACKGROUND>
+            <ACTIONS>NPC_BUY_GENERIC,NPC_GAME</ACTIONS>
+        </NPC>	 
+    </LOCATION>   -->
+    <!--These are the locations in Candyland-->
+    
+</NPCS>

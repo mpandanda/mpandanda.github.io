@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flavorList PAGECOUNT="2">
+	<PAGE ID="1">
+		<SCOOP>
+			<ID>1</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xD9E658</COLOR>
+			<FLAVOR>Marsh Pear</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>2</ID>
+			<TOPPING>8</TOPPING>
+			<COLOR>0xACCB30</COLOR>
+			<FLAVOR>Colorful Pistachio</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>3</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xB9FDD5</COLOR>
+			<FLAVOR>Mintish Spring</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>4</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xC35B43</COLOR>
+			<FLAVOR>Happy Camper</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>5</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0x5B3737</COLOR>
+			<FLAVOR>Brownie Candy</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>6</ID>
+			<TOPPING>4</TOPPING>
+			<COLOR>0xD2FA74</COLOR>
+			<FLAVOR>Smell of Spring</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>7</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0x54364C</COLOR>
+			<FLAVOR>Blackberry Dream</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>8</ID>
+			<TOPPING>8</TOPPING>
+			<COLOR>0xFAFA4B</COLOR>
+			<FLAVOR>Daffodil Valley</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="2">
+		<SCOOP>
+			<ID>9</ID>
+			<TOPPING>7</TOPPING>
+			<COLOR>0xA4593A</COLOR>
+			<FLAVOR>Loopty Loop</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>10</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xFC7EDB</COLOR>
+			<FLAVOR>Cheriies Everywhere</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>11</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xC2CC3E</COLOR>
+			<FLAVOR>Pear Hibiscus</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>12</ID>
+			<TOPPING>4</TOPPING>
+			<COLOR>0x67C651</COLOR>
+			<FLAVOR>Grassy</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>13</ID>
+			<TOPPING>5</TOPPING>
+			<COLOR>0x7D446D</COLOR>
+			<FLAVOR>Farmer's Favourite</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>14</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xD9547E</COLOR>
+			<FLAVOR>Strawberry Swirl</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>15</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xE63175</COLOR>
+			<FLAVOR>Razzie Dazzie</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>16</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFEE9C0</COLOR>
+			<FLAVOR>Peacy Keen</FLAVOR>
+		</SCOOP>
+	</PAGE>
+</flavorList>

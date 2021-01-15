@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flavorList PAGECOUNT="4">
+	<PAGE ID="1">
+		<SCOOP>
+			<ID>1</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xE11D76</COLOR>
+			<FLAVOR>Choco Cherry</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>2</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xEFF094</COLOR>
+			<FLAVOR>Belgian Surprise</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>3</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xB17E95</COLOR>
+			<FLAVOR>Summit Plummet</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>4</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0x67FF8B</COLOR>
+			<FLAVOR>Bunny Field</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>5</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xA3A3A3</COLOR>
+			<FLAVOR>Misty Hill</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>6</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xE3DAD6</COLOR>
+			<FLAVOR>Dimi</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>7</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0x325438</COLOR>
+			<FLAVOR>Dance Alone</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>8</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0x695525</COLOR>
+			<FLAVOR>Wild Camp</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="2">
+		<SCOOP>
+			<ID>9</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0x564C11</COLOR>
+			<FLAVOR>Cherry Ground</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>10</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xF9F9F9</COLOR>
+			<FLAVOR>JavaChips</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>11</ID>
+			<TOPPING>6</TOPPING>
+			<COLOR>0xFFD3E9</COLOR>
+			<FLAVOR>Strawberry Summer</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>12</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0x83305A</COLOR>
+			<FLAVOR>Euphoria</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>13</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0x2D497A</COLOR>
+			<FLAVOR>Summer Evening</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>14</ID>
+			<TOPPING>8</TOPPING>
+			<COLOR>0x0A64FF</COLOR>
+			<FLAVOR>Blueberry Delight</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>15</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xA97947</COLOR>
+			<FLAVOR>Caramel Chocolate</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>16</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0xF9EA60</COLOR>
+			<FLAVOR>Pineapple M'n'M</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="3">
+		<SCOOP>
+			<ID>17</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xD1E231</COLOR>
+			<FLAVOR>Cherry Peary</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>18</ID>
+			<TOPPING>4</TOPPING>
+			<COLOR>0x8DB600</COLOR>
+			<FLAVOR>Apple Gone Nuts</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>19</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xFFFFF7</COLOR>
+			<FLAVOR>Lovely Marsh</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>20</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xFFE5B4</COLOR>
+			<FLAVOR>Peachy Keen</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>21</ID>
+			<TOPPING>7</TOPPING>
+			<COLOR>0x16E9FB</COLOR>
+			<FLAVOR>Lost and Found</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>22</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0x16E9FB</COLOR>
+			<FLAVOR>Sea Bergs</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>23</ID>
+			<TOPPING>6</TOPPING>
+			<COLOR>0x33FF00</COLOR>
+			<FLAVOR>Summer Green</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>24</ID>
+			<TOPPING>8</TOPPING>
+			<COLOR>0xB20113</COLOR>
+			<FLAVOR>Hvala, ne!</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="4">
+		<SCOOP>
+			<ID>25</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xF0F0C3</COLOR>
+			<FLAVOR>Sandy Delight</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>26</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0x728FCC</COLOR>
+			<FLAVOR>Szia nyar</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>27</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xCCFF00</COLOR>
+			<FLAVOR>Lime</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>28</ID>
+			<TOPPING>7</TOPPING>
+			<COLOR>0x002800</COLOR>
+			<FLAVOR>Leafy Marsh</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>29</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xADF6DC</COLOR>
+			<FLAVOR>Cloudy Sky</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>30</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0x802498</COLOR>
+			<FLAVOR>Plums</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>31</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFF6600</COLOR>
+			<FLAVOR>Orange</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>32</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0x58D039</COLOR>
+			<FLAVOR>Minty Chocolate</FLAVOR>
+		</SCOOP>
+	</PAGE>
+</flavorList>

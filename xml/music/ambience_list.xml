@@ -1,0 +1,231 @@
+<AMBIENCE>
+    <!--This file contains all the ambient sounds/music for each location in the game-->
+    
+    <!--These are the locations in England-->
+    <LOCATION ID="EN_icecream">
+        <MUSIC>
+            <NAME>sound/music/music/shapeofyou.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        
+    </LOCATION>
+	<LOCATION ID="EN_petstore">
+        
+    </LOCATION>
+	<LOCATION ID="EN_barn">
+        <MUSIC>
+            <NAME>sound/music/music/wilddances.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>         	
+    </LOCATION>
+    <LOCATION ID="EN_clothes_store">
+        <MUSIC>
+            <NAME>sound/music/clothes_store.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>       
+    </LOCATION>
+    <LOCATION ID="EN_village">
+        <MUSIC>
+            <NAME>sound/music/music/requiem.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+    </LOCATION>
+    <LOCATION ID="EN_townsquare">
+        <MUSIC>
+            <NAME>sound/music/music/countingstars.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>      
+    </LOCATION>
+    <LOCATION ID="EN_townsquare2">
+        <MUSIC>
+            <NAME>sound/music/music/euphoria.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        
+    </LOCATION>
+    <LOCATION ID="EN_forest">
+        <MUSIC>
+            <NAME>sound/music/music/bodylikeabackroad.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+    </LOCATION>
+    <LOCATION ID="EN_treehouse_lobby">
+        <AMBIENCE>
+            <NAME>sound/forestambience04_30.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_stonehenge">
+        <MUSIC>
+            <NAME>sound/music/music/dontletmedown.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+    </LOCATION>
+    <LOCATION ID="EN_orchard">
+        <MUSIC>
+            <NAME>sound/music/music/onelasttime.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+    </LOCATION>
+    <LOCATION ID="EN_bunny_field">
+        <AMBIENCE>
+            <NAME>sound/country_ambience01_30.mp3</NAME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_fishing_hole">
+        <MUSIC>
+            <NAME>sound/music/music/thefinalcountdown.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 	
+    </LOCATION>
+    <LOCATION ID="EN_treehouse">
+         <MUSIC>
+            <NAME>sound/music/music/wedonttalkanymore.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        
+    </LOCATION>
+    <LOCATION ID="EN_library">
+        
+        <AMBIENCE>
+            <NAME>sound/fire_06_loop20.mp3</NAME>
+            <VOLUME>0.5</VOLUME>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_purple_door">
+
+    </LOCATION>
+    <LOCATION ID="EN_graveyard"> 
+        <AMBIENCE>
+            <NAME>sound/haunting_wind_in_trees_01.mp3</NAME>
+            <VOLUME>0.4</VOLUME>
+        </AMBIENCE>
+        <EFFECT>
+            <NAME>sound/thunder08.mp3</NAME>
+        </EFFECT>
+        <EFFECT>
+            <NAME>sound/ice_freeze_crack_09.mp3</NAME>
+        </EFFECT>
+		<MUSIC>
+            <NAME>sound/music/graveyard.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+    </LOCATION>
+    <LOCATION ID="EN_parlour">  
+        <AMBIENCE>
+            <NAME>sound/fire_06_loop20.mp3</NAME>
+            <VOLUME>0.5</VOLUME>
+        </AMBIENCE>
+        <EFFECT>
+            <NAME>sound/thunder08.mp3</NAME>
+        </EFFECT>
+    </LOCATION>
+    <LOCATION ID="EN_darkroom">
+        <AMBIENCE>
+            <NAME>sound/haunted_house_120loop_01.mp3</NAME>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_beach"> 
+        <MUSIC>
+            <NAME>sound/music/music/bailando.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+    </LOCATION>
+    <LOCATION ID="EN_harvest_grove">   
+        <AMBIENCE>
+            <NAME>sound/country_ambience01_30.mp3</NAME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_party1">
+        <MUSIC>
+            <NAME>sound/music/music/rockabye.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 	
+    </LOCATION>
+	<LOCATION ID="EN_community_center">
+        <MUSIC>
+            <NAME>sound/music/community.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+    </LOCATION>
+	<LOCATION ID="EN_palm_island">  
+        	
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.35</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.7</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_starfish_island">   
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.35</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.7</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_lighthouse_island">
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.35</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.7</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_lighthouse">
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.1</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.2</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_faraway_desert">
+        <AMBIENCE>
+            <NAME>sound/lapping02.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="OW_town1">
+        <AMBIENCE>
+            <NAME>sound/lapping02.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+	</LOCATION>
+    
+    <!--These are the locations in Candyland-->
+    
+</AMBIENCE>

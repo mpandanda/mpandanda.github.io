@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flavorList PAGECOUNT="2">
+	<PAGE ID="1">
+		<SCOOP>
+			<ID>1</ID>
+			<TOPPING>4</TOPPING>
+			<COLOR>0xF0F2CF</COLOR>
+			<FLAVOR>Nutmeg</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>2</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xEABA7F</COLOR>
+			<FLAVOR>Pumpkin</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>3</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xECD4B7</COLOR>
+			<FLAVOR>Choco Apple Pie</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>4</ID>
+			<TOPPING>5</TOPPING>
+			<COLOR>0xFFE39B</COLOR>
+			<FLAVOR>Chai</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>5</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xF6EDE1</COLOR>
+			<FLAVOR>Marshmallow</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>6</ID>
+			<TOPPING>8</TOPPING>
+			<COLOR>0xAC4800</COLOR>
+			<FLAVOR>Cinnamon</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>7</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xEAA24A</COLOR>
+			<FLAVOR>Marsh Pumpkin</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>8</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0xA95234</COLOR>
+			<FLAVOR>Caramel Apple</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="2">
+		<SCOOP>
+			<ID>9</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xBF5454</COLOR>
+			<FLAVOR>Fig</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>10</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xECD266</COLOR>
+			<FLAVOR>Honey</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>11</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0x814A32</COLOR>
+			<FLAVOR>Gingersnap</FLAVOR>
+		</SCOOP>
+	</PAGE>
+</flavorList>

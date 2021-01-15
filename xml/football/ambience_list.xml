@@ -1,0 +1,356 @@
+<AMBIENCE>
+    <!--This file contains all the ambient sounds/music for each location in the game-->
+    
+    <!--These are the locations in England-->
+    <LOCATION ID="EN_icecream">
+        <MUSIC>
+            <NAME>sound/music/football/football4.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        
+    </LOCATION>
+	<LOCATION ID="EN_petstore">
+        <MUSIC>
+            <NAME>sound/music/football/football5.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        
+    </LOCATION>
+	<LOCATION ID="EN_barn">
+        <MUSIC>
+            <NAME>sound/music/football/football3.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        	
+    </LOCATION>
+    <LOCATION ID="EN_clothes_store">
+        <MUSIC>
+            <NAME>sound/music/clothes_store.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>       
+    </LOCATION>
+    <LOCATION ID="EN_village">
+        <MUSIC>
+            <NAME>sound/music/football/football1.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+		<AMBIENCE>
+            <NAME>sound/market_street_50.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/market_street_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_townsquare">
+        <MUSIC>
+            <NAME>sound/music/football/football2.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+		<AMBIENCE>
+            <NAME>sound/market_street_50.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/market_street_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>		
+    </LOCATION>
+    <LOCATION ID="EN_townsquare2">
+        <MUSIC>
+            <NAME>sound/music/football/football3.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+		<AMBIENCE>
+            <NAME>sound/market_street_50.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/market_street_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>		
+    </LOCATION>
+    <LOCATION ID="EN_forest">
+        <MUSIC>
+            <NAME>sound/music/football/football5.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/forestambience04_30.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_treehouse_lobby">
+        <MUSIC>
+            <NAME>sound/music/football/football3.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/forestambience04_30.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_stonehenge">
+        <MUSIC>
+            <NAME>sound/music/football/football2.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/country_ambience01_30.mp3</NAME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_orchard">
+        <MUSIC>
+            <NAME>sound/music/football/football5.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/country_ambience01_30.mp3</NAME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_bunny_field">
+        <MUSIC>
+            <NAME>sound/music/football/football4.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/country_ambience01_30.mp3</NAME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_fishing_hole">
+        <MUSIC>
+            <NAME>sound/music/football/football5.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>	
+        <AMBIENCE>
+            <NAME>sound/lapping02.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/fire_06_loop20.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_treehouse">
+        <MUSIC>
+            <NAME>sound/music/football/football2.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        
+    </LOCATION>
+    <LOCATION ID="EN_library">
+        <MUSIC>
+            <NAME>sound/music/football/football5.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        
+        <AMBIENCE>
+            <NAME>sound/fire_06_loop20.mp3</NAME>
+            <VOLUME>0.5</VOLUME>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_purple_door">
+        <MUSIC>
+            <NAME>sound/music/purple_door1.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <MUSIC>
+            <NAME>sound/music/purple_door2.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <MUSIC>
+            <NAME>sound/music/purple_door3.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+    </LOCATION>
+    <LOCATION ID="EN_graveyard"> 
+        <AMBIENCE>
+            <NAME>sound/haunting_wind_in_trees_01.mp3</NAME>
+            <VOLUME>0.4</VOLUME>
+        </AMBIENCE>
+        <EFFECT>
+            <NAME>sound/thunder08.mp3</NAME>
+        </EFFECT>
+        <EFFECT>
+            <NAME>sound/ice_freeze_crack_09.mp3</NAME>
+        </EFFECT>
+		<MUSIC>
+            <NAME>sound/music/graveyard.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC> 
+    </LOCATION>
+    <LOCATION ID="EN_parlour">  
+        <AMBIENCE>
+            <NAME>sound/fire_06_loop20.mp3</NAME>
+            <VOLUME>0.5</VOLUME>
+        </AMBIENCE>
+        <EFFECT>
+            <NAME>sound/thunder08.mp3</NAME>
+        </EFFECT>
+    </LOCATION>
+    <LOCATION ID="EN_darkroom">
+        <AMBIENCE>
+            <NAME>sound/haunted_house_120loop_01.mp3</NAME>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_beach">
+        <MUSIC>
+            <NAME>sound/music/football/football1.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.35</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.7</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/fire_06_loop20.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>  	
+    </LOCATION>
+    <LOCATION ID="EN_harvest_grove">
+        <MUSIC>
+            <NAME>sound/music/football/soccerpitch.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/country_ambience01_30.mp3</NAME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_party1">   
+    </LOCATION>
+	<LOCATION ID="EN_community_center">
+        <MUSIC>
+            <NAME>sound/music/community.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+    </LOCATION>
+	<LOCATION ID="EN_palm_island">  
+        <MUSIC>
+            <NAME>sound/music/football/football1.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>        	
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.35</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.7</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_starfish_island">
+        <MUSIC>
+            <NAME>sound/music/football/football1.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>	
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.35</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.7</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_lighthouse_island">
+        <MUSIC>
+            <NAME>sound/music/football/football1.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.35</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.7</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+	<LOCATION ID="EN_lighthouse">
+        <MUSIC>
+            <NAME>sound/music/football/football3.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+		<AMBIENCE>
+            <NAME>sound/waves_multiple02.mp3</NAME>
+            <VOLUME>0.1</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/coastal_amb_01_60.mp3</NAME>
+            <VOLUME>0.2</VOLUME>
+            <NIGHT>false</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="EN_faraway_desert">
+        <MUSIC>
+            <NAME>sound/music/football/football5.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/lapping02.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+    </LOCATION>
+    <LOCATION ID="OW_town1">
+        <MUSIC>
+            <NAME>sound/music/football/football2.mp3</NAME>
+            <LOOP>true</LOOP>
+        </MUSIC>
+        <AMBIENCE>
+            <NAME>sound/lapping02.mp3</NAME>
+            <VOLUME>0.25</VOLUME>
+        </AMBIENCE>
+        <AMBIENCE>
+            <NAME>sound/crickets_amb_03_30.mp3</NAME>
+            <NIGHT>true</NIGHT>
+        </AMBIENCE>
+	</LOCATION>
+    
+    <!--These are the locations in Candyland-->
+    
+</AMBIENCE>

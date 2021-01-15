@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flavorList PAGECOUNT="2">
+	<PAGE ID="1">
+		<SCOOP>
+			<ID>1</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFFFD8F</COLOR>
+			<FLAVOR>Lemon</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>2</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0x9DF4D1</COLOR>
+			<FLAVOR>Mint Chocolate Chip</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>3</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xFD97E1</COLOR>
+			<FLAVOR>Pink Butter Gum</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>4</ID>
+			<TOPPING>4</TOPPING>
+			<COLOR>0xFEF8C6</COLOR>
+			<FLAVOR>Butter Pecan</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>5</ID>
+			<TOPPING>5</TOPPING>
+			<COLOR>0x8C5745</COLOR>
+			<FLAVOR>Rocky Road</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>6</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFCB670</COLOR>
+			<FLAVOR>Orange Shebert</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>7</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xFF74DE</COLOR>
+			<FLAVOR>Strawberry Cream Swirl</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>8</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0x835D50</COLOR>
+			<FLAVOR>Chocolate</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="2">
+		<SCOOP>
+			<ID>9</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0x1B1B1B</COLOR>
+			<FLAVOR>Midnight Surprise</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>10</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFF3232</COLOR>
+			<FLAVOR>Cherry</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>11</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFFFFFF</COLOR>
+			<FLAVOR>Vanilla</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>12</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0x2E2EFF</COLOR>
+			<FLAVOR>Blueberry</FLAVOR>
+		</SCOOP>
+	</PAGE>
+</flavorList>

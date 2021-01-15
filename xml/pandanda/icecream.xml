@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flavorList PAGECOUNT="3">
+	<PAGE ID="1">
+		<SCOOP>
+			<ID>1</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0x3DFFF5</COLOR>
+			<FLAVOR>Blue Moon</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>2</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xFC6C85</COLOR>
+			<FLAVOR>Watermelon</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>3</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xFDBCB4</COLOR>
+			<FLAVOR>Melon</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>4</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xFFEC89</COLOR>
+			<FLAVOR>Pineapple</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>5</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFF8243</COLOR>
+			<FLAVOR>Mango</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>6</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0x965A3E</COLOR>
+			<FLAVOR>Coconut</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>7</ID>
+			<TOPPING>6</TOPPING>
+			<COLOR>0x34B334</COLOR>
+			<FLAVOR>Palm Island</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>8</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0xEACE6A</COLOR>
+			<FLAVOR>Starfish Island</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="2">
+		<SCOOP>
+			<ID>9</ID>
+			<TOPPING>3</TOPPING>
+			<COLOR>0xD81A0E</COLOR>
+			<FLAVOR>Lighthouse Island</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>10</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0x006994</COLOR>
+			<FLAVOR>Sea Bergs</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>11</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0x268B07</COLOR>
+			<FLAVOR>Summer Grass</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>12</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xF4B18C</COLOR>
+			<FLAVOR>Sunset</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>13</ID>
+			<TOPPING>8</TOPPING>
+			<COLOR>0xFF9C67</COLOR>
+			<FLAVOR>Confetti</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>14</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xF8BDFF</COLOR>
+			<FLAVOR>Candy Floss</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>15</ID>
+			<TOPPING>7</TOPPING>
+			<COLOR>0x8E4585</COLOR>
+			<FLAVOR>Surprise Plum</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>16</ID>
+			<TOPPING>0</TOPPING>
+			<COLOR>0xFFE135</COLOR>
+			<FLAVOR>Banana</FLAVOR>
+		</SCOOP>
+	</PAGE>
+	<PAGE ID="3">
+		<SCOOP>
+			<ID>17</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xE11D76</COLOR>
+			<FLAVOR>Choco Cherry</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>18</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0xEFF094</COLOR>
+			<FLAVOR>Belgian Surprise</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>19</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xB17E95</COLOR>
+			<FLAVOR>Summit Plummet</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>20</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0x67FF8B</COLOR>
+			<FLAVOR>Bunny Field</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>21</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xA3A3A3</COLOR>
+			<FLAVOR>Misty Hill</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>22</ID>
+			<TOPPING>1</TOPPING>
+			<COLOR>0xE3DAD6</COLOR>
+			<FLAVOR>Dimi</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>23</ID>
+			<TOPPING>9</TOPPING>
+			<COLOR>0x325438</COLOR>
+			<FLAVOR>Dance Alone</FLAVOR>
+		</SCOOP>
+		<SCOOP>
+			<ID>24</ID>
+			<TOPPING>2</TOPPING>
+			<COLOR>0x695525</COLOR>
+			<FLAVOR>Wild Camp</FLAVOR>
+		</SCOOP>
+	</PAGE>
+</flavorList>
